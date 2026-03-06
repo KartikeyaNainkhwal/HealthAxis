@@ -18,28 +18,26 @@ const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
 
-// CORS — allow both frontend and admin dev ports + production Vercel URLs
+// CORS — allow localhost dev ports + any health-axis Vercel deployment
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
   'http://localhost:5175',
   'http://localhost:5176',
-  // Production Vercel deployments
-  'https://health-axis-seven.vercel.app',
-  'https://health-axis-1rmk.vercel.app',
-  // Wildcard pattern for any future Vercel preview deployments
   process.env.FRONTEND_URL,
   process.env.ADMIN_URL,
 ].filter(Boolean)
 
+// Matches any: https://health-axis-*.vercel.app
+const vercelPattern = /^https:\/\/health-axis[a-zA-Z0-9-]*\.vercel\.app$/
+
 app.use(cors({
   origin: (origin, callback) => {
-    // Allow requests with no origin (mobile apps, curl, Postman)
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true)
-    } else {
-      callback(new Error(`CORS policy: origin ${origin} not allowed`))
-    }
+    if (!origin) return callback(null, true)
+    if (vercelPattern.test(origin)) return callback(null, true)
+    if (allowedOrigins.includes(origin)) return callback(null, true)
+    console.error(`❌ ERROR: CORS policy: origin ${origin} not allowed`)
+    callback(new Error(`CORS policy: origin ${origin} not allowed`))
   },
   credentials: true,
 }))
