@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-text-main font-sans;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  ::selection {
+    @apply bg-primary/20 text-primary-dark;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold tracking-tight text-secondary;
+  }
+}
+
+/* ══════════════════════ COMPONENT LAYER ══════════════════════ */
+@layer components {
+
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none select-none;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-white rounded-xl px-6 py-3 hover:bg-primary-dark focus:ring-primary shadow-sm hover:shadow-premium active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply btn bg-white text-text-main border border-border rounded-xl px-6 py-3 hover:bg-background hover:border-primary/30 focus:ring-primary active:scale-[0.98];
+  }
+
+  .btn-ghost {
+    @apply btn text-primary px-4 py-2 rounded-xl hover:bg-primary-bg focus:ring-primary;
+  }
+
+  .btn-danger {
+    @apply btn text-error border border-error/30 bg-error-bg/50 rounded-xl px-4 py-2 hover:bg-error-bg focus:ring-error;
+  }
+
+  .btn-sm {
+    @apply px-4 py-2 text-sm rounded-lg;
+  }
+
+  .btn-lg {
+    @apply px-8 py-4 text-base rounded-2xl;
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-surface rounded-2xl border border-border shadow-card transition-all duration-200;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-premium-hover hover:-translate-y-0.5 cursor-pointer;
+  }
+
+  .card-elevated {
+    @apply bg-surface rounded-2xl shadow-premium border border-border/50;
+  }
+
+  /* Inputs */
+  .input-base {
+    @apply w-full bg-background border border-border rounded-xl px-4 py-3 text-text-main placeholder-text-muted/60 transition-all duration-200 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/15 focus:bg-surface;
+  }
+
+  .input-sm {
+    @apply input-base py-2 text-sm;
+  }
+
+  .input-label {
+    @apply block text-sm font-semibold text-text-main mb-1.5;
+  }
+
+  /* Badges */
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold;
+  }
+
+  .badge-success {
+    @apply badge bg-success-bg text-success;
+  }
+
+  .badge-warning {
+    @apply badge bg-warning-bg text-warning;
+  }
+
+  .badge-error {
+    @apply badge bg-error-bg text-error;
+  }
+
+  .badge-info {
+    @apply badge bg-info-bg text-info;
+  }
+
+  .badge-muted {
+    @apply badge bg-border/80 text-text-muted;
+  }
+
+  /* Section layout helpers */
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 md:px-10;
+  }
+
+  .page-container {
+    @apply max-w-7xl mx-auto px-6 md:px-10 py-12 min-h-[70vh];
+  }
+
+  /* Skeleton shimmer */
+  .skeleton {
+    @apply bg-border/60 rounded-xl animate-pulse;
+  }
+
+  .shimmer-bg {
+    background: linear-gradient(90deg, #e8eff3 0%, #f4f7f9 50%, #e8eff3 100%);
+    background-size: 800px 100%;
+    @apply animate-shimmer;
+  }
+
+  /* Divider */
+  .divider {
+    @apply h-px bg-border my-6;
+  }
+
+  /* Nav active underline */
+  .nav-active {
+    @apply text-primary font-semibold relative;
+  }
+
+  /* Status dot */
+  .status-dot-available {
+    @apply inline-flex relative;
+  }
+
+  .status-dot-available::before {
+    content: '';
+    @apply absolute inset-0 rounded-full bg-success animate-ping opacity-75;
+  }
+}
+
+/* ══════════════════════ SCROLLBAR ══════════════════════ */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-border rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-text-muted/50;
+}

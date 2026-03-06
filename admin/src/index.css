@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-background text-text-main font-sans;
+        font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+    }
+
+    ::selection {
+        @apply bg-primary/20 text-primary-dark;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-semibold tracking-tight text-secondary;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply inline-flex items-center justify-center gap-2 font-semibold transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none select-none;
+    }
+
+    .btn-primary {
+        @apply btn bg-primary text-white rounded-xl px-6 py-3 hover:bg-primary-dark focus:ring-primary shadow-sm hover:shadow-premium active:scale-[0.98];
+    }
+
+    .btn-secondary {
+        @apply btn bg-white text-text-main border border-border rounded-xl px-6 py-3 hover:bg-background focus:ring-primary active:scale-[0.98];
+    }
+
+    .btn-ghost {
+        @apply btn text-primary px-4 py-2 rounded-xl hover:bg-primary-bg focus:ring-primary;
+    }
+
+    .card {
+        @apply bg-surface rounded-2xl border border-border shadow-card;
+    }
+
+    .input-base {
+        @apply w-full bg-background border border-border rounded-xl px-4 py-3 text-text-main placeholder-text-muted/60 outline-none focus:border-primary focus:ring-2 focus:ring-primary/15 focus:bg-surface transition-all;
+    }
+
+    .badge-success {
+        @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-success-bg text-success;
+    }
+
+    .badge-error {
+        @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-error-bg text-error;
+    }
+
+    .badge-warning {
+        @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-warning-bg text-warning;
+    }
+
+    .badge-info {
+        @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-info-bg text-info;
+    }
+
+    .skeleton {
+        @apply bg-border/60 rounded-xl animate-pulse;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+}
