@@ -150,7 +150,7 @@
 <details>
 <summary><strong>Doctor Profile Management</strong></summary>
 
-![Doctor Profile](./screenshots/doctor-appointments.png)
+![Doctor Profile](./screenshots/doctor-appointment.png)
 
 </details>
 
