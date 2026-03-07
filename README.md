@@ -1,162 +1,249 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/HealthAxis-Platform-blue?style=for-the-badge&logo=heart&logoColor=white" alt="HealthAxis" />
+<br/>
 
 # 🏥 HealthAxis
 
-### *Your Complete Healthcare Ecosystem — Patients, Doctors & Admins, United.*
+### **Full-Stack Healthcare Appointment Platform**
+#### *Patients · Doctors · Admins — One Unified Ecosystem*
 
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-health--axis--five.vercel.app-4CAF50?style=for-the-badge)](https://health-axis-five.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-KartikeyaNainkhwal-181717?style=for-the-badge&logo=github)](https://github.com/KartikeyaNainkhwal/HealthAxis)
-![Deployments](https://img.shields.io/badge/Deployments-13%20%E2%9C%85-success?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Production%20Live-brightgreen?style=for-the-badge)
+<br/>
 
-</div>
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Visit%20App-4CAF50?style=for-the-badge&logoColor=white)](https://health-axis-five.vercel.app)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/👨‍💻%20Built%20By-KartikeyaNainkhwal-6C63FF?style=for-the-badge)](https://github.com/KartikeyaNainkhwal)
+&nbsp;
+[![Deployments](https://img.shields.io/badge/✅%20Deployments-17%20Live-00C896?style=for-the-badge)](#)
+&nbsp;
+[![Stack](https://img.shields.io/badge/Stack-MERN-FF6B35?style=for-the-badge&logo=mongodb&logoColor=white)](#)
+
+<br/>
+
+> 🏥 **HealthAxis** is a production-deployed, full-stack healthcare management system built with the MERN stack.
+> It supports three distinct user roles — **Patients**, **Doctors**, and **Admins** — each with their own
+> dedicated portal, real-time appointment management, and **Razorpay** payment integration.
+
+<br/>
 
 ---
 
-## 📋 Table of Contents
+</div>
 
-- [Overview](#-overview)
-- [Live Demo](#-live-demo)
-- [Screenshots](#-screenshots)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
-- [Contributing](#-contributing)
+## 📌 Table of Contents
+
+- [🌟 Overview](#-overview)
+- [🚀 Live Deployments](#-live-deployments)
+- [📸 Full Screenshot Gallery](#-full-screenshot-gallery)
+  - [Patient Portal](#-patient-portal)
+  - [Doctor Portal](#-doctor-portal)
+  - [Admin Panel](#-admin-panel)
+  - [Payments](#-payments)
+- [✨ Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [⚙️ Getting Started](#️-getting-started)
+- [🔐 Environment Variables](#-environment-variables)
+- [👨‍💻 Author](#-author)
 
 ---
 
 ## 🌟 Overview
 
-**HealthAxis** is a full-stack, production-ready healthcare management platform that seamlessly connects **patients**, **doctors**, and **administrators** in one unified ecosystem.
+**HealthAxis** is more than a booking app — it's a complete healthcare operations platform.
 
-Whether you're booking a doctor's appointment, managing a medical practice, or overseeing an entire clinic's operations — HealthAxis handles it all with a clean, modern UI and a powerful backend.
+| What it solves | How |
+|---|---|
+| 🔍 Finding the right doctor | Browseable, filterable doctor directory |
+| 📅 Booking appointments | Real-time slot selection with instant confirmation |
+| 💳 Paying securely | Razorpay payment gateway — fully integrated |
+| 👨‍⚕️ Doctor workflow | Personal dashboard, appointment management, profile editor |
+| 🛡️ Clinic administration | Full admin panel — manage doctors, appointments & platform data |
 
-> 💡 Built and deployed end-to-end by [KartikeyaNainkhwal](https://github.com/KartikeyaNainkhwal) — currently live across **3 production deployments**.
-
----
-
-## 🌐 Live Demo
-
-| Deployment | URL | Status |
-|---|---|---|
-| 🟢 Primary | [health-axis-five.vercel.app](https://health-axis-five.vercel.app) | Live |
-| 🟢 Mirror 1 | health-axis-kpth.vercel.app | Live |
-| 🟢 Mirror 2 | health-axis-1rmk.vercel.app | Live |
+Built for scale, deployed across **3 production environments**, and crafted with a pixel-perfect UI.
 
 ---
 
-## 📸 Screenshots
+## 🚀 Live Deployments
 
-### 🏠 Patient-Facing Pages
+| # | Environment | URL | Status |
+|---|---|---|---|
+| 1 | 🟢 Primary | [health-axis-five.vercel.app](https://health-axis-five.vercel.app) | **Live** |
+| 2 | 🟢 Mirror | health-axis-kpth.vercel.app | **Live** |
+| 3 | 🟢 Mirror | health-axis-1rmk.vercel.app | **Live** |
 
-<table>
-  <tr>
-    <td align="center"><strong>🏠 Home / About</strong></td>
-    <td align="center"><strong>👨‍⚕️ Browse Doctors</strong></td>
-  </tr>
-  <tr>
-    <td><img src="about.png" alt="About Page" width="100%"/></td>
-    <td><img src="doctors.png" alt="Doctors Listing" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>📅 Book Appointment</strong></td>
-    <td align="center"><strong>📬 Contact Us</strong></td>
-  </tr>
-  <tr>
-    <td><img src="booking.png" alt="Booking Page" width="100%"/></td>
-    <td><img src="contact.png" alt="Contact Page" width="100%"/></td>
-  </tr>
-</table>
+> 17 total deployments tracked — continuously iterated and improved.
+
+---
+
+## 📸 Full Screenshot Gallery
+
+---
+
+### 🙍 Patient Portal
+
+> Everything a patient needs — from discovering doctors to managing their full health journey.
+
+<br/>
+
+**🏠 Home Page**
+
+![Home](home.png)
+
+<br/>
+
+**👨‍⚕️ Browse Doctors**
+
+![Doctors](doctors.png)
+
+<br/>
+
+**📖 About Page**
+
+![About](about.png)
+
+<br/>
+
+**📅 Book an Appointment**
+
+![Booking](booking.png)
+
+<br/>
+
+**📋 My Appointments**
+
+![Patient Appointments](patient-appointments.png)
+
+<br/>
+
+**👤 Patient Profile**
+
+![Patient Profile](patient-profile.png)
+
+<br/>
+
+**📬 Contact Us**
+
+![Contact](contact.png)
 
 ---
 
 ### 👨‍⚕️ Doctor Portal
 
-<table>
-  <tr>
-    <td align="center"><strong>📊 Doctor Dashboard</strong></td>
-    <td align="center"><strong>📋 My Appointments</strong></td>
-  </tr>
-  <tr>
-    <td><img src="doctor-dashboard.png" alt="Doctor Dashboard" width="100%"/></td>
-    <td><img src="doctor-appointment.png" alt="Doctor Appointments" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2"><strong>👤 Doctor Profile</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="doctor-profile.png" alt="Doctor Profile" width="50%"/></td>
-  </tr>
-</table>
+> A dedicated workspace for doctors to manage their schedule, patients, and professional profile.
+
+<br/>
+
+**📊 Doctor Dashboard**
+
+![Doctor Dashboard](doctor-dashboard.png)
+
+<br/>
+
+**📋 My Appointments**
+
+![Doctor Appointments](doctor-appointment.png)
+
+<br/>
+
+**👤 Doctor Profile Editor**
+
+![Doctor Profile](doctor-profile.png)
 
 ---
 
 ### 🛡️ Admin Panel
 
-<table>
-  <tr>
-    <td align="center"><strong>🔐 Admin Login</strong></td>
-    <td align="center"><strong>📊 Admin Dashboard</strong></td>
-  </tr>
-  <tr>
-    <td><img src="admin-login.png" alt="Admin Login" width="100%"/></td>
-    <td><img src="admin-dashboard.png" alt="Admin Dashboard" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>➕ Add New Doctor</strong></td>
-    <td align="center"><strong>📋 Doctors List</strong></td>
-  </tr>
-  <tr>
-    <td><img src="admin-add-doctor.png" alt="Add Doctor" width="100%"/></td>
-    <td><img src="admin-doctors-list.png" alt="Doctors List" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2"><strong>🗓️ All Appointments</strong></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="admin-appointments.png" alt="Admin Appointments" width="50%"/></td>
-  </tr>
-</table>
+> Full operational control — manage every doctor, appointment, and platform setting.
+
+<br/>
+
+**🔐 Admin Login**
+
+![Admin Login](admin-login.png)
+
+<br/>
+
+**📊 Admin Dashboard**
+
+![Admin Dashboard](admin-dashboard.png)
+
+<br/>
+
+**➕ Add New Doctor**
+
+![Add Doctor](admin-add-doctor.png)
+
+<br/>
+
+**📋 Doctors Directory**
+
+![Doctors List](admin-doctors-list.png)
+
+<br/>
+
+**🗓️ All Appointments**
+
+![Admin Appointments](admin-appointments.png)
+
+---
+
+### 💳 Payment Integration
+
+> Secure, seamless payments powered by **Razorpay** — fully wired into the booking flow.
+
+<br/>
+
+**💳 Razorpay Checkout**
+
+![Razorpay](razorpay.png)
 
 ---
 
 ## ✨ Features
 
-### 👤 For Patients
-- 🔍 **Browse & Search Doctors** — Filter by specialty, availability, and more
-- 📅 **Online Appointment Booking** — Real-time slot selection and confirmation
-- 🏠 **About & Contact Pages** — Informative, clean UI for trust-building
-- 📱 **Fully Responsive** — Works seamlessly on mobile, tablet, and desktop
+### 🙍 Patient Features
+- ✅ Secure register & login with JWT authentication
+- ✅ Browse and filter doctors by specialty
+- ✅ Book appointments with real-time slot availability
+- ✅ Pay for appointments via **Razorpay** payment gateway
+- ✅ View and cancel upcoming/past appointments
+- ✅ Edit personal profile and account details
+- ✅ Fully mobile-responsive UI
 
-### 👨‍⚕️ For Doctors
-- 📊 **Personal Dashboard** — Overview of today's schedule and stats
-- 📋 **Appointment Management** — View, accept, or cancel patient appointments
-- 👤 **Profile Management** — Update specialization, fees, availability, and bio
+### 👨‍⚕️ Doctor Features
+- ✅ Dedicated doctor login and personal dashboard
+- ✅ View and manage daily appointment schedule
+- ✅ Accept or cancel patient bookings
+- ✅ Edit professional profile — specialization, fees, bio, availability
+- ✅ Upload and update profile picture via Cloudinary
 
-### 🛡️ For Admins
-- 🔐 **Secure Admin Login** — Protected admin-only entry point
-- 📊 **Admin Dashboard** — Bird's-eye view of platform activity
-- ➕ **Add / Manage Doctors** — Onboard new doctors with full profile setup
-- 📋 **Doctors Directory** — Full list with edit/delete capabilities
-- 🗓️ **Appointments Overview** — Monitor all appointments across all doctors
+### 🛡️ Admin Features
+- ✅ Secure admin-only login
+- ✅ Platform-wide dashboard with key operational stats
+- ✅ Onboard new doctors with full profile setup
+- ✅ View, edit, and remove doctors from the platform
+- ✅ Monitor all appointments across all doctors
+- ✅ Complete visibility into platform operations
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer | Technology |
-|---|---|
-| **Frontend** | React.js, Tailwind CSS |
-| **Backend** | Node.js, Express.js |
-| **Database** | MongoDB |
-| **Auth** | JWT (JSON Web Tokens) |
-| **File Uploads** | Cloudinary |
-| **Deployment** | Vercel (Frontend) |
-| **Version Control** | Git & GitHub |
+<div align="center">
+
+| Layer | Technology | Purpose |
+|---|---|---|
+| **Frontend** | React.js + Vite | Patient-facing UI |
+| **Admin Panel** | React.js + Vite | Doctor & Admin portals |
+| **Styling** | Tailwind CSS | Responsive, utility-first design |
+| **Backend** | Node.js + Express.js | REST API server |
+| **Database** | MongoDB + Mongoose | Data persistence |
+| **Auth** | JWT + bcrypt | Secure role-based authentication |
+| **Payments** | Razorpay | Appointment payment processing |
+| **File Storage** | Cloudinary | Doctor profile image hosting |
+| **Deployment** | Vercel | Frontend hosting (17 deployments) |
+
+</div>
 
 ---
 
@@ -165,22 +252,26 @@ Whether you're booking a doctor's appointment, managing a medical practice, or o
 ```
 HealthAxis/
 │
-├── 📁 frontend/          # React.js Patient-facing app
-│   ├── src/
-│   │   ├── pages/        # Home, Doctors, Booking, Contact, About
-│   │   ├── components/   # Navbar, Footer, DoctorCard, etc.
-│   │   └── context/      # Global state (AppContext)
+├── 📁 frontend/                  # React app — Patient portal
+│   └── src/
+│       ├── pages/                # Home, Doctors, Booking, MyAppointments,
+│       │                         # MyProfile, About, Contact
+│       ├── components/           # Navbar, Footer, DoctorCard, etc.
+│       └── context/              # Global state (AppContext)
 │
-├── 📁 admin/             # React.js Admin & Doctor portal
-│   ├── src/
-│   │   ├── pages/        # Dashboard, DoctorsList, AddDoctor, Appointments
-│   │   └── components/   # Sidebar, Navbar, etc.
+├── 📁 admin/                     # React app — Doctor & Admin portals
+│   └── src/
+│       ├── pages/
+│       │   ├── Admin/            # Dashboard, AddDoctor, DoctorsList, Appointments
+│       │   └── Doctor/           # Dashboard, Appointments, Profile
+│       └── components/           # Sidebar, Navbar
 │
-├── 📁 backend/           # Node.js + Express REST API
-│   ├── routes/           # Auth, Doctor, Admin, Appointment routes
-│   ├── models/           # Mongoose schemas
-│   ├── controllers/      # Business logic
-│   └── middleware/       # Auth guards, file upload
+├── 📁 backend/                   # Node.js + Express REST API
+│   ├── controllers/              # Auth, Doctor, Admin, Appointment logic
+│   ├── models/                   # Mongoose schemas (User, Doctor, Appointment)
+│   ├── routes/                   # API route definitions
+│   ├── middleware/               # JWT auth guards, Multer file upload
+│   └── server.js                 # App entry point
 │
 ├── .gitignore
 └── README.md
@@ -188,75 +279,107 @@ HealthAxis/
 
 ---
 
-## 🚀 Getting Started
+## ⚙️ Getting Started
 
 ### Prerequisites
 
-- Node.js `v18+`
-- MongoDB Atlas account (or local MongoDB)
-- Cloudinary account (for image uploads)
+```bash
+node --version    # v18 or higher required
+npm --version     # v9 or higher required
+```
 
-### 1. Clone the Repository
+You'll also need accounts on:
+- [MongoDB Atlas](https://www.mongodb.com/atlas) — free tier works perfectly
+- [Cloudinary](https://cloudinary.com) — for doctor image uploads
+- [Razorpay](https://razorpay.com) — for payment integration
+
+---
+
+### 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/KartikeyaNainkhwal/HealthAxis.git
 cd HealthAxis
 ```
 
-### 2. Setup Backend
+### 2️⃣ Start the Backend
 
 ```bash
 cd backend
 npm install
-# Add your .env file (see Environment Variables below)
 npm start
+# API running at http://localhost:4000
 ```
 
-### 3. Setup Frontend
+### 3️⃣ Start the Patient Frontend
 
 ```bash
 cd frontend
 npm install
 npm run dev
+# Running at http://localhost:5173
 ```
 
-### 4. Setup Admin Panel
+### 4️⃣ Start the Admin Panel
 
 ```bash
 cd admin
 npm install
 npm run dev
+# Running at http://localhost:5174
 ```
 
 ---
 
 ## 🔐 Environment Variables
 
-Create a `.env` file in the `/backend` directory:
+Create a `.env` file inside the `/backend` directory:
 
 ```env
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-CLOUDINARY_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_SECRET_KEY=your_cloudinary_api_secret
+# ── Server ───────────────────────────────
+PORT=4000
+
+# ── MongoDB ──────────────────────────────
+MONGODB_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/healthaxis
+
+# ── Authentication ────────────────────────
+JWT_SECRET=your_super_secret_jwt_key
+
+# ── Admin Credentials ─────────────────────
 ADMIN_EMAIL=admin@healthaxis.com
 ADMIN_PASSWORD=your_admin_password
+
+# ── Cloudinary (Image Uploads) ────────────
+CLOUDINARY_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_SECRET_KEY=your_api_secret
+
+# ── Razorpay (Payments) ───────────────────
+RAZORPAY_KEY_ID=your_razorpay_key_id
+RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 ```
 
-> ⚠️ **Never commit your `.env` file.** It's already covered in `.gitignore`.
+> ⚠️ **Never commit `.env` to version control.** Already covered in `.gitignore`.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions are welcome!
 
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/amazing-feature`
-3. Commit your changes: `git commit -m 'Add some amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
+```bash
+# 1. Fork this repo on GitHub
+# 2. Create your feature branch
+git checkout -b feature/your-feature-name
+
+# 3. Make your changes and commit
+git commit -m "feat: describe your feature"
+
+# 4. Push to your fork
+git push origin feature/your-feature-name
+
+# 5. Open a Pull Request on GitHub
+```
 
 ---
 
@@ -264,18 +387,25 @@ Contributions, issues, and feature requests are welcome!
 
 <div align="center">
 
-**Kartikeya Nainkhwal**
+<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-KartikeyaNainkhwal-181717?style=for-the-badge&logo=github)](https://github.com/KartikeyaNainkhwal)
+### Built with 💙 by **Kartikeya Nainkhwal**
 
-*Built with ❤️ — transforming how healthcare connects with technology.*
+*Full-Stack Developer · MERN Specialist · Available for Freelance*
 
-</div>
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-KartikeyaNainkhwal-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KartikeyaNainkhwal)
+&nbsp;&nbsp;
+[![Live Project](https://img.shields.io/badge/🌐%20Live%20App-HealthAxis-4CAF50?style=for-the-badge)](https://health-axis-five.vercel.app)
+
+<br/>
 
 ---
 
-<div align="center">
+*If this project caught your eye, I'd love to collaborate.*
+*Drop a ⭐ on the repo — and let's build something amazing together.* 🚀
 
-⭐ **If you found this project helpful, please consider giving it a star!** ⭐
+<br/>
 
 </div>
