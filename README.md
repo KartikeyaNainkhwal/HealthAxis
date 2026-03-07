@@ -1,328 +1,304 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/HealthAxis-Full--Stack_Healthcare_Platform-0D7377?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Healio-Healthcare_You_Can_Trust-0D9488?style=for-the-badge" />
 
 <br/>
 
-# 🏥 HealthAxis
+# 🏥 Healio
 
-### Premium Full-Stack Healthcare Appointment Platform
+### Advanced Healthcare You Can Trust
 
-> A production-grade healthcare system that connects **patients, doctors, and administrators** in one seamless digital ecosystem.
+> A production-grade healthcare platform that connects **patients, doctors, and administrators** in one seamless digital ecosystem — with real-time booking, secure payments, and digital prescriptions.
 
-⚡ **Built by Kartikeya Nainkhwal — Full Stack Developer specializing in scalable SaaS platforms.**
-
-<br/>
-
-[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square\&logo=react\&logoColor=black)]()
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=node.js\&logoColor=white)]()
-[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square\&logo=mongodb\&logoColor=white)]()
-[![Express](https://img.shields.io/badge/Express-000000?style=flat-square\&logo=express\&logoColor=white)]()
-[![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square\&logo=tailwind-css\&logoColor=white)]()
-[![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=flat-square\&logo=razorpay)]()
+⚡ **Built by [Kartikeya Nainkhwal](mailto:kartikeyanainkhwal@gmail.com) — Full Stack Developer specializing in scalable SaaS platforms.**
 
 <br/>
 
-🌐 **Live Demo:** *(Add after deployment)*
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)]()
+[![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)]()
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)]()
+[![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)]()
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)]()
+[![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=flat-square&logo=razorpay)]()
+
+<br/>
+
 📂 **Repository:** [GitHub](https://github.com/KartikeyaNainkhwal/HealthAxis)
-📹 **Demo Video:** Coming Soon
 
 </div>
 
 ---
 
-# ✨ Overview
+## ✨ Overview
 
-**HealthAxis** is a full-stack healthcare platform designed to replicate real-world hospital and clinic systems.
+**Healio** is a full-stack MERN healthcare platform designed to replicate real-world hospital and clinic systems. It provides three dedicated portals — **Patient**, **Doctor**, and **Admin** — each with tailored dashboards, workflows, and analytics.
 
-The platform enables:
-
-• Patients to **discover doctors and book appointments**
-• Doctors to **manage appointments and write digital prescriptions**
-• Admins to **control the entire system and monitor analytics**
-
-This project demonstrates how to build a **production-ready SaaS platform** with authentication, payments, dashboards, notifications, and real business logic.
-
----
-# 📸 Application Screenshots
-
-Below are some key interfaces of **HealthAxis**.
+**Patients** can discover doctors, book appointments with real-time slot validation, pay securely via Razorpay, and receive digital prescriptions. **Doctors** get a dedicated dashboard to manage appointments, write prescriptions, and track revenue. **Admins** have full control over the platform — managing doctors, monitoring appointments, and viewing system-wide analytics.
 
 ---
 
-### 🏠 Home Page
+## 📸 Screenshots
+
+### 🌐 Patient Portal
+
+<details>
+<summary><strong>Home Page</strong></summary>
 
 ![Home Page](./screenshots/home.png)
 
----
+</details>
 
-### 🔎 Find Doctors
+<details>
+<summary><strong>Find Doctors</strong></summary>
 
 ![Find Doctors](./screenshots/doctors.png)
 
----
+</details>
 
-### 📅 Appointment Booking
+<details>
+<summary><strong>Appointment Booking</strong></summary>
 
 ![Book Appointment](./screenshots/booking.png)
 
----
+</details>
 
-### 💳 Payment Integration
+<details>
+<summary><strong>My Appointments</strong></summary>
 
-![Payment](./screenshots/payment.png)
+![My Appointments](./screenshots/patient-appointments.png)
 
----
+</details>
 
-### 👤 Patient Dashboard
+<details>
+<summary><strong>My Profile</strong></summary>
 
-![Patient Dashboard](./screenshots/patient-dashboard.png)
+![My Profile](./screenshots/patient-profile.png)
 
----
+</details>
 
-### 👨‍⚕️ Doctor Dashboard
+<details>
+<summary><strong>About Page</strong></summary>
 
-![Doctor Dashboard](./screenshots/doctor-dashboard.png)
+![About Page](./screenshots/about.png)
+
+</details>
+
+<details>
+<summary><strong>Contact Page</strong></summary>
+
+![Contact Page](./screenshots/contact.png)
+
+</details>
 
 ---
 
 ### 🛡️ Admin Panel
 
-![Admin Panel](./screenshots/admin-dashboard.png)
+<details>
+<summary><strong>Admin Login</strong></summary>
+
+![Admin Login](./screenshots/admin-login.png)
+
+</details>
+
+<details>
+<summary><strong>Admin Dashboard</strong></summary>
+
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
+</details>
+
+<details>
+<summary><strong>All Appointments</strong></summary>
+
+![All Appointments](./screenshots/admin-appointments.png)
+
+</details>
+
+<details>
+<summary><strong>Add Doctor</strong></summary>
+
+![Add Doctor](./screenshots/admin-add-doctor.png)
+
+</details>
+
+<details>
+<summary><strong>Doctors Catalog</strong></summary>
+
+![Doctors Catalog](./screenshots/admin-doctors-list.png)
+
+</details>
 
 ---
 
+### 🩺 Doctor Portal
 
-# 💼 Business Use Cases
+<details>
+<summary><strong>Doctor Dashboard</strong></summary>
 
-HealthAxis can power real businesses like:
+![Doctor Dashboard](./screenshots/doctor-dashboard.png)
 
-• Private clinics
-• Multi-doctor hospitals
-• Telemedicine startups
-• Healthcare marketplaces
-• Medical appointment platforms
-• Healthcare SaaS products
+</details>
 
-This architecture can also be adapted to build:
+<details>
+<summary><strong>Doctor Profile Management</strong></summary>
 
-• Salon booking systems
-• Hotel booking platforms
-• Consulting marketplaces
-• Service provider platforms
+![Doctor Profile](./screenshots/doctor-profile.png)
 
----
+</details>
 
-# 🧩 Core Features
+<details>
+<summary><strong>Doctor Profile Management</strong></summary>
 
-## 👤 Patient Portal
+![Doctor Profile](./screenshots/doctor-appointments.png)
 
-Patients can:
-
-• Search doctors by **speciality and availability**
-• Book appointments with **real-time slot validation**
-• Make **secure payments via Razorpay**
-• View appointment history
-• Download digital prescriptions
-• Leave **verified doctor reviews**
-
-Other features include:
-
-• Email OTP verification
-• Google OAuth login
-• Profile management
-• Appointment cancellation with automated refunds
+</details>
 
 ---
 
-## 👨‍⚕️ Doctor Dashboard
+## 🧩 Features
 
-Doctors have a dedicated dashboard where they can:
+### 👤 Patient Portal
 
-• View upcoming appointments
-• Accept or cancel bookings
-• Write **digital prescriptions**
-• Monitor their appointment statistics
-• Manage profile and availability
+- Search doctors by **speciality, name, and availability**
+- Book appointments with **real-time slot validation**
+- Secure payments via **Razorpay** with automated refund logic
+- View appointment history and download **digital prescriptions (PDF)**
+- Leave **verified doctor reviews** (1–5 star ratings)
+- Email **OTP verification** and **Google OAuth** login
+- Full profile management with appointment cancellation
 
-The dashboard also provides **analytics such as:**
+### 👨‍⚕️ Doctor Dashboard
 
-• Total patients
-• Total revenue
-• Appointment trends
+- View and manage upcoming appointments
+- Accept or cancel patient bookings
+- Write and issue **digital prescriptions**
+- Track **revenue trends**, total patients, and appointment stats
+- Manage profile details and toggle availability
 
----
+### 🛡️ Admin Panel
 
-## 🛡️ Admin Panel
-
-Admins control the entire platform.
-
-Admin capabilities include:
-
-• Add or remove doctors
-• View all users and appointments
-• Manage payments and refunds
-• Monitor system analytics
-• Control platform operations
-
-This demonstrates **role-based SaaS architecture**.
+- Add, edit, or remove doctors from the platform
+- View all users, doctors, and appointments
+- Monitor **system-wide analytics** — appointments, revenue, patient counts
+- Manage payments and process refunds
+- Full **role-based access control**
 
 ---
 
-# 💳 Payment System
+## 💳 Payment System
 
-HealthAxis integrates with **Razorpay** for secure transactions.
+Healio integrates **Razorpay** for secure payment processing with automated refund logic:
 
-Features include:
-
-• Secure payment verification
-• Automated refund system
-• Transaction tracking
-
-### Refund Logic
-
-| Time Before Appointment | Refund      |
-| ----------------------- | ----------- |
-| More than 24 hours      | 100% Refund |
-| 12 – 24 hours           | 50% Refund  |
-| Less than 12 hours      | No Refund   |
+| Time Before Appointment | Refund        |
+|-------------------------|---------------|
+| More than 24 hours      | ✅ 100% Refund |
+| 12 – 24 hours           | ⚠️ 50% Refund  |
+| Less than 12 hours      | ❌ No Refund    |
 
 ---
 
-# ⭐ Doctor Reviews System
+## ⭐ Reviews System
 
-After a completed appointment:
-
-• Patients receive a **review request email**
-• They can leave a **1-5 star rating**
-• Reviews appear on the doctor's public profile
-
-This creates **real social proof** and trust in the platform.
+After a completed appointment, patients receive a **review request email**. They can leave a 1–5 star rating with comments, which appear on the doctor's public profile — creating real **social proof and trust**.
 
 ---
 
-# 📩 Notification System
+## 📩 Notifications
 
-HealthAxis includes a full notification pipeline:
-
-• Email notifications using Nodemailer
-• WhatsApp notifications using Twilio
-• Booking confirmations
-• Appointment reminders
-• Review request emails
+- **Email** — Booking confirmations, appointment reminders, review requests (Nodemailer)
+- **WhatsApp** — Appointment notifications (Twilio)
 
 ---
 
-# 📊 Analytics Dashboard
+## 🔐 Security
 
-The system includes analytics such as:
-
-• Total appointments
-• Total revenue
-• Daily appointment trends
-• Doctor performance insights
-
-Charts are implemented using **Recharts**.
+- JWT-based authentication with role-based access control
+- Password hashing with **bcrypt**
+- Protected API routes for all three portals
+- Secure payment verification via Razorpay signatures
 
 ---
 
-# 🔐 Security Features
+## 🛠 Tech Stack
 
-Security is a major part of the platform.
-
-Implemented protections include:
-
-• JWT authentication
-• Password hashing with bcrypt
-• Role-based access control
-• Protected API routes
-• Secure payment verification
-
----
-
-# 🛠 Tech Stack
-
-### Frontend
-
-• React
-• Vite
-• TailwindCSS
-• Framer Motion
-• React Router
-
-### Backend
-
-• Node.js
-• Express
-• MongoDB
-• Mongoose
-
-### Authentication
-
-• JWT
-• bcrypt
-• Google OAuth
-
-### Integrations
-
-• Razorpay (payments)
-• Cloudinary (file storage)
-• Nodemailer (email)
-• Twilio (WhatsApp notifications)
-
-### Deployment
-
-• Vercel / Render / Node server
+| Layer          | Technologies                                        |
+|----------------|-----------------------------------------------------|
+| **Frontend**   | React, Vite, TailwindCSS, Framer Motion, React Router |
+| **Backend**    | Node.js, Express, MongoDB, Mongoose                 |
+| **Auth**       | JWT, bcrypt, Google OAuth                            |
+| **Payments**   | Razorpay                                             |
+| **Storage**    | Cloudinary                                           |
+| **Email**      | Nodemailer                                           |
+| **WhatsApp**   | Twilio                                               |
+| **Charts**     | Recharts                                             |
+| **Deployment** | Vercel / Render                                      |
 
 ---
 
-# 📂 Project Architecture
+## 📂 Project Structure
 
 ```
-HealthAxis
+Healio/
+├── frontend/          # Patient-facing React app (port 5173)
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── context/
+│   └── ...
 │
-├── frontend
-│   ├── components
-│   ├── pages
-│   └── context
+├── admin/             # Admin + Doctor panel React app (port 5174)
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   │   ├── Admin/
+│   │   │   └── Doctor/
+│   │   └── context/
+│   └── ...
 │
-├── admin
-│   ├── admin dashboard
-│   ├── doctor dashboard
-│   └── analytics
+├── backend/           # Express API server (port 4000)
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middlewares/
+│   └── ...
 │
-└── backend
-    ├── controllers
-    ├── models
-    ├── routes
-    └── middlewares
+└── screenshots/       # Application screenshots
 ```
 
 ---
 
-# 🚀 Installation
+## 🚀 Getting Started
 
-### Clone Repository
+### Prerequisites
 
-```
+- Node.js (v18+)
+- MongoDB (local or Atlas)
+- Razorpay account (for payments)
+- Cloudinary account (for file uploads)
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/KartikeyaNainkhwal/HealthAxis.git
 cd HealthAxis
 ```
 
----
+### 2. Backend setup
 
-### Backend Setup
-
-```
+```bash
 cd backend
 npm install
 ```
 
-Create `.env`
+Create a `.env` file:
 
-```
+```env
 MONGODB_URI=
 JWT_SECRET=
+
+ADMIN_EMAIL=
+ADMIN_PASSWORD=
 
 CLOUDINARY_NAME=
 CLOUDINARY_API_KEY=
@@ -338,110 +314,79 @@ SMTP_PASS=
 GOOGLE_CLIENT_ID=
 ```
 
-Run backend
+Start the server:
 
-```
+```bash
 npm run server
 ```
 
----
+### 3. Frontend setup
 
-### Frontend Setup
-
-```
+```bash
 cd frontend
 npm install
 npm run dev
 ```
 
----
+### 4. Admin panel setup
 
-### Admin Panel
-
-```
+```bash
 cd admin
 npm install
 npm run dev
 ```
 
----
+### Local URLs
 
-# 🌐 Local URLs
-
-Patient Website
-
-```
-http://localhost:5173
-```
-
-Admin Panel
-
-```
-http://localhost:5174
-```
-
-Backend API
-
-```
-http://localhost:4000
-```
+| Service         | URL                     |
+|-----------------|-------------------------|
+| Patient Website | http://localhost:5173    |
+| Admin Panel     | http://localhost:5174    |
+| Backend API     | http://localhost:4000    |
 
 ---
 
-# 🧠 Real Problems Solved
+## 💼 Business Use Cases
 
-Many healthcare platforms struggle with:
+Healio's architecture can power:
 
-• Appointment double booking
-• Poor admin control
-• No doctor analytics
-• Complicated payment handling
-
-HealthAxis solves this with:
-
-• Real-time slot validation
-• Role-based dashboards
-• Automated payment logic
-• Verified review system
+- Private clinics and multi-doctor hospitals
+- Telemedicine and healthcare startups
+- Medical appointment marketplaces
+- Salon / hotel / consulting booking systems
+- Any service-provider SaaS platform
 
 ---
 
-# 🚀 What I Can Build For Clients
+## 🧠 Problems Solved
 
-Using this architecture I can build:
-
-• Healthcare platforms
-• SaaS web applications
-• Appointment booking systems
-• Admin dashboards
-• Marketplace platforms
-• Payment integrated systems
-• Startup MVP products
+| Problem                          | Healio's Solution              |
+|----------------------------------|--------------------------------|
+| Appointment double-booking       | Real-time slot validation      |
+| Poor admin visibility            | Role-based analytics dashboard |
+| No doctor performance tracking   | Revenue & appointment trends   |
+| Complex payment handling         | Automated Razorpay + refunds   |
+| No patient trust signals         | Verified review system         |
 
 ---
 
-# 🤝 Open for Freelance Work
+## 🤝 Open for Work
 
-I specialize in building **full-stack SaaS platforms and modern web applications.**
+I specialize in building **full-stack SaaS platforms** and **modern web applications**.
 
-Services I offer:
+- Full-stack MERN development
+- Startup MVP development
+- Dashboard & analytics systems
+- Payment integrations
+- API design & development
 
-• Full-stack MERN development
-• Startup MVP development
-• SaaS platforms
-• Dashboard systems
-• Payment integrations
-• API development
-
-If you're building a **startup or scalable web platform**, feel free to reach out.
-
-📩 **Email:** [kartikeyak@iitbhilai.ac.in](mailto:kartikeyanainkhwal@gmail.com)
+📩 **Email:** [kartikeyanainkhwal@gmail.com](mailto:kartikeyanainkhwal@gmail.com)
 
 ---
 
 <div align="center">
 
-⭐ If you found this project interesting, consider starring the repository.
+⭐ **Star this repo** if you found it useful!
 
 Built with ❤️ by **Kartikeya Nainkhwal**
 
