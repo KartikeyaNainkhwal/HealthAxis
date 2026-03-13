@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 export const AdminContext = createContext();
 
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL?.replace(/\/+$/, '')
 if (!BACKEND_URL) console.error('❌ VITE_BACKEND_URL is not set in admin .env!')
 
 // Global 401 handler for admin panel
