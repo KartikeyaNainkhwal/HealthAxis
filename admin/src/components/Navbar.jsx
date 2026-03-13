@@ -19,7 +19,8 @@ const Navbar = () => {
   }
 
   const goToUserPanel = () => {
-    window.location.href = 'http://localhost:5173'
+    const frontendUrl = import.meta.env.VITE_FRONTEND_URL || 'http://localhost:5173'
+    window.location.href = frontendUrl
   }
 
   const isOnDashboard =
