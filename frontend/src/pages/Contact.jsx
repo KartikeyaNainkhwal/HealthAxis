@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { toast } from 'react-toastify'
 import axios from 'axios'
 
-const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:4000'
+const backendUrl = import.meta.env.VITE_BACKEND_URL?.replace(/\/+$/, '')
 
 const Contact = () => {
   const [loading, setLoading] = useState(false)
