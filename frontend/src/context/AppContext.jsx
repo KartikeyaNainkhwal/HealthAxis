@@ -5,7 +5,7 @@ import axios from 'axios'
 export const AppContext = createContext()
 
 // Global axios defaults
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL?.replace(/\/+$/, '')
 
 if (!BACKEND_URL) {
     console.error('❌ VITE_BACKEND_URL is not set in .env file!')
