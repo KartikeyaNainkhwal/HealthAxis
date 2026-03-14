@@ -50,7 +50,10 @@ const Login = () => {
           setToken(data.token)
         } else { toast.error(data.message) }
       }
-    } catch (err) { toast.error(err.message) }
+    } catch (err) {
+      const errorMsg = err.response?.data?.message || err.message;
+      toast.error(errorMsg);
+    }
     finally { setLoading(false) }
   }
 
@@ -59,7 +62,10 @@ const Login = () => {
       const { data } = await axios.post(backendUrl + '/api/user/resend-code', { email })
       if (data.success) toast.success(data.message)
       else toast.error(data.message)
-    } catch (err) { toast.error(err.message) }
+    } catch (err) {
+      const errorMsg = err.response?.data?.message || err.message;
+      toast.error(errorMsg);
+    }
   }
 
   const onGoogleSuccess = async (response) => {
