@@ -147,7 +147,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-gray-400 text-sm font-bold uppercase tracking-wider mb-1">Email Us</h4>
-                    <p className="font-medium cursor-pointer hover:text-primary transition-colors">support@healio.in</p>
+                    <p className="font-medium cursor-pointer hover:text-primary transition-colors">support@healthaxis.com</p>
                   </div>
                 </motion.div>
 

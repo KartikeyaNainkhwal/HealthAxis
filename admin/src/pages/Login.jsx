@@ -73,7 +73,7 @@ const Login = () => {
               value={email}
               className='w-full border border-border-light focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all outline-none rounded-xl p-3.5 bg-background focus:bg-white text-text-main font-medium'
               type="email"
-              placeholder="admin@healio.in"
+              placeholder="admin@healthaxis.com"
               required
             />
           </div>
