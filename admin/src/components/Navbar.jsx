@@ -19,7 +19,7 @@ const Navbar = () => {
   }
 
   const goToUserPanel = () => {
-    const frontendUrl = import.meta.env.VITE_FRONTEND_URL || 'http://localhost:5173'
+    const frontendUrl = import.meta.env.VITE_FRONTEND_URL || 'https://health-axis-kpth.vercel.app'
     window.location.href = frontendUrl
   }
 
