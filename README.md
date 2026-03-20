@@ -85,43 +85,43 @@ Built for scale, deployed across **3 production environments**, and crafted with
 
 <br/>
 
-![Patient Portal 1](screenshots/1.png)
+![Patient Portal 1](screenshots/HealthAxis1.png)
 
 <br/>
 
-![Patient Portal 2](screenshots/2.png)
+![Patient Portal 2](screenshots/HealthAxis2.png)
 
 <br/>
 
-![Patient Portal 3](screenshots/3.png)
+![Patient Portal 3](screenshots/HealthAxis3.png)
 
 <br/>
 
-![Patient Portal 4](screenshots/4.png)
+![Patient Portal 4](screenshots/HealthAxis4.png)
 
 <br/>
 
-![Patient Portal 5](screenshots/5.png)
+![Patient Portal 5](screenshots/HealthAxis5.png)
 
 <br/>
 
-![Patient Portal 6](screenshots/6.png)
+![Patient Portal 6](screenshots/HealthAxis6.png)
 
 <br/>
 
-![Patient Portal 7](screenshots/7.png)
+![Patient Portal 7](screenshots/HealthAxis7.png)
 
 <br/>
 
-![Patient Portal 8](screenshots/8.png)
+![Patient Portal 8](screenshots/HealthAxis8.png)
 
 <br/>
 
-![Patient Portal 9](screenshots/9.png)
+![Patient Portal 9](screenshots/HealthAxis9.png)
 
 <br/>
 
-![Patient Portal 10](screenshots/10.png)
+![Patient Portal 10](screenshots/HealthAxis10.png)
 
 ---
 
@@ -129,7 +129,11 @@ Built for scale, deployed across **3 production environments**, and crafted with
 
 <br/>
 
-![Doctor Sign-In & Admin Portal](screenshots/11.png)
+![Doctor Sign-In](screenshots/HealthAxis11.png)
+
+<br/>
+
+![Admin Portal](screenshots/adminportal.png)
 
 ---
 
@@ -139,23 +143,23 @@ Built for scale, deployed across **3 production environments**, and crafted with
 
 <br/>
 
-![Admin Panel 1](screenshots/12.png)
+![Admin Panel 1](screenshots/HealthAxis12.png)
 
 <br/>
 
-![Admin Panel 2](screenshots/13.png)
+![Admin Panel 2](screenshots/HealthAxis13.png)
 
 <br/>
 
-![Admin Panel 3](screenshots/14.png)
+![Admin Panel 3](screenshots/HealthAxis14.png)
 
 <br/>
 
-![Admin Panel 4](screenshots/15.png)
+![Admin Panel 4](screenshots/HealthAxis15.png)
 
 <br/>
 
-![Admin Panel 5](screenshots/16.png)
+![Admin Panel 5](screenshots/HealthAxis16.png)
 
 ---
 
@@ -165,19 +169,19 @@ Built for scale, deployed across **3 production environments**, and crafted with
 
 <br/>
 
-![Doctor Portal 1](screenshots/17.png)
+![Doctor Portal 1](screenshots/HealthAxis17.png)
 
 <br/>
 
-![Doctor Portal 2](screenshots/18.png)
+![Doctor Portal 2](screenshots/HealthAxis18.png)
 
 <br/>
 
-![Doctor Portal 3](screenshots/19.png)
+![Doctor Portal 3](screenshots/HealthAxis19.png)
 
 <br/>
 
-![Doctor Portal 4](screenshots/20.png)
+![Doctor Portal 4](screenshots/HealthAxis20.png)
 
 ---
 
