@@ -35,9 +35,9 @@
 - [🚀 Live Deployments](#-live-deployments)
 - [📸 Full Screenshot Gallery](#-full-screenshot-gallery)
   - [Patient Portal](#-patient-portal)
+  - [Doctor Portal Sign-In & Admin Portal](#-doctor-portal-sign-in--admin-portal)
+  - [Admin Panel](#️-admin-panel)
   - [Doctor Portal](#-doctor-portal)
-  - [Admin Panel](#-admin-panel)
-  - [Payments](#-payments)
 - [✨ Features](#-features)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [📁 Project Structure](#-project-structure)
@@ -85,69 +85,51 @@ Built for scale, deployed across **3 production environments**, and crafted with
 
 <br/>
 
-**🏠 Home Page**
-
-![Home](home.png)
+![Patient Portal 1](screenshots/1.png)
 
 <br/>
 
-**👨‍⚕️ Browse Doctors**
-
-![Doctors](doctors.png)
+![Patient Portal 2](screenshots/2.png)
 
 <br/>
 
-**📖 About Page**
-
-![About](about.png)
+![Patient Portal 3](screenshots/3.png)
 
 <br/>
 
-**📅 Book an Appointment**
-
-![Booking](booking.png)
+![Patient Portal 4](screenshots/4.png)
 
 <br/>
 
-**📋 My Appointments**
-
-![Patient Appointments](patient-appointments.png)
+![Patient Portal 5](screenshots/5.png)
 
 <br/>
 
-**👤 Patient Profile**
-
-![Patient Profile](patient-profile.png)
+![Patient Portal 6](screenshots/6.png)
 
 <br/>
 
-**📬 Contact Us**
+![Patient Portal 7](screenshots/7.png)
 
-![Contact](contact.png)
+<br/>
+
+![Patient Portal 8](screenshots/8.png)
+
+<br/>
+
+![Patient Portal 9](screenshots/9.png)
+
+<br/>
+
+![Patient Portal 10](screenshots/10.png)
 
 ---
 
-### 👨‍⚕️ Doctor Portal
-
-> A dedicated workspace for doctors to manage their schedule, patients, and professional profile.
+### 🔐 Doctor Portal Sign-In & Admin Portal
 
 <br/>
 
-**📊 Doctor Dashboard**
-
-![Doctor Dashboard](doctor-dashboard.png)
-
-<br/>
-
-**📋 My Appointments**
-
-![Doctor Appointments](doctor-appointment.png)
-
-<br/>
-
-**👤 Doctor Profile Editor**
-
-![Doctor Profile](doctor-profile.png)
+![Doctor Sign-In & Admin Portal](screenshots/11.png)
 
 ---
 
@@ -157,45 +139,45 @@ Built for scale, deployed across **3 production environments**, and crafted with
 
 <br/>
 
-**🔐 Admin Login**
-
-![Admin Login](admin-login.png)
+![Admin Panel 1](screenshots/12.png)
 
 <br/>
 
-**📊 Admin Dashboard**
-
-![Admin Dashboard](admin-dashboard.png)
+![Admin Panel 2](screenshots/13.png)
 
 <br/>
 
-**➕ Add New Doctor**
-
-![Add Doctor](admin-add-doctor.png)
+![Admin Panel 3](screenshots/14.png)
 
 <br/>
 
-**📋 Doctors Directory**
-
-![Doctors List](admin-doctors-list.png)
+![Admin Panel 4](screenshots/15.png)
 
 <br/>
 
-**🗓️ All Appointments**
-
-![Admin Appointments](admin-appointments.png)
+![Admin Panel 5](screenshots/16.png)
 
 ---
 
-### 💳 Payment Integration
+### 👨‍⚕️ Doctor Portal
 
-> Secure, seamless payments powered by **Razorpay** — fully wired into the booking flow.
+> A dedicated workspace for doctors to manage their schedule, patients, and professional profile.
 
 <br/>
 
-**💳 Razorpay Checkout**
+![Doctor Portal 1](screenshots/17.png)
 
-![Razorpay](razorpay.png)
+<br/>
+
+![Doctor Portal 2](screenshots/18.png)
+
+<br/>
+
+![Doctor Portal 3](screenshots/19.png)
+
+<br/>
+
+![Doctor Portal 4](screenshots/20.png)
 
 ---
 
@@ -274,6 +256,7 @@ HealthAxis/
 │   └── server.js                 # App entry point
 │
 ├── .gitignore
+├── 📁 screenshots/              # App screenshots (1-20.png)
 └── README.md
 ```
 
